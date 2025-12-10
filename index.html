@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Celestial Products</title>
-  <style>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.2.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-size: 10pt; font-family: "Liberation Mono", monospace; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;title&gt;Shika&lt;/title&gt;
+  &lt;style&gt;
     body { margin:0; font-family: Arial, sans-serif; color:white; overflow-x:hidden; background:black; }
     header { display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:black; border-bottom:1px solid #1c1f2b; position:relative; z-index:2; }
     nav a { margin-left:25px; text-decoration:none; color:#cdd3e0; font-weight:500; }
@@ -14,129 +28,150 @@
     .hero p { font-size:1.2rem; color:#b9bfd0; max-width:600px; margin:0 auto 30px; }
     .cta-btn { background:#5865f2; padding:15px 30px; border-radius:8px; color:white; text-decoration:none; font-weight:600; }
     .section { padding:80px 40px; max-width:1100px; margin:auto; position:relative; z-index:1; }
+    .section h2 { text-align: center; }
+    .section p { text-align: center; margin-left: auto; margin-right: auto; color:#b9bfd0; max-width:700px; }
     .products-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; }
     .card { background:#141821; padding:25px; border-radius:12px; border:1px solid #1f2433; }
-    .card h3 { margin:0 0 10px; }
-    .card p { color:#aab1c3; }
+    .card h3, .card p { text-align: center; } /* Center all card content */
+    .purchase-btn {
+      display: block;       /* center the button */
+      margin: 10px auto 0;  /* top margin and centered horizontally */
+      background: #5865f2;
+      padding: 10px 20px;
+      border-radius: 6px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem; /* slightly smaller than hero button */
+      text-align: center;
+    }
+    .purchase-btn:hover {
+      background: #4752c4;
+    }
     footer { text-align:center; padding:40px; color:#999; border-top:1px solid #1c1f2b; margin-top:60px; position:relative; z-index:1; }
     canvas { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0; }
-  </style>
-</head>
-<body>
-  <canvas id="stars"></canvas>
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;canvas id=&quot;stars&quot;&gt;&lt;/canvas&gt;
 
-  <header>
-    <div class="logo" style="font-size:1.4rem; font-weight:700;">Celestial Products</div>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#advantages">Our Advantages</a>
-      <a href="#products">Products</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  &lt;header&gt;
+    &lt;div class=&quot;logo&quot; style=&quot;font-size:1.4rem; font-weight:700; display:flex; align-items:center; gap:10px;&quot;&gt;
+      &lt;img src=&quot;https://i.ibb.co/mCnH85ZT/f1a88bf0df2a726f0257d7915f8d5f9a-removebg-preview.png&quot; style=&quot;height:40px; width:auto;&quot; /&gt; Shika
+    &lt;/div&gt;
+    &lt;nav&gt;
+      &lt;a href=&quot;#features&quot;&gt;Products&lt;/a&gt;
+      &lt;a href=&quot;#products&quot;&gt;Features&lt;/a&gt;
+      &lt;a href=&quot;#pricing&quot;&gt;Pricing&lt;/a&gt;
+      &lt;a href=&quot;https://discord.com/invite/shika-hub&quot; target=&quot;_blank&quot;&gt;Discord&lt;/a&gt;
+      &lt;a href=&quot;https://t.me/shika_hub&quot; target=&quot;_blank&quot;&gt;Telegram&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
 
-  <section class="hero">
-    <h1>High‑Performance Digital Products</h1>
-    <p>Fast, reliable, and optimized solutions designed for professionals. Experience performance and simplicity combined.</p>
-    <a class="cta-btn" href="#products">Browse Products</a>
-  </section>
+  &lt;section class=&quot;hero&quot;&gt;
+    &lt;h1&gt;The Best Genshin Impact Product&lt;/h1&gt;
+    &lt;p&gt;Fast, reliable, and optimized solutions designed for professionals. Experience performance and simplicity combined.&lt;/p&gt;
+    &lt;a class=&quot;cta-btn&quot; href=&quot;#products&quot;&gt;Browse Products&lt;/a&gt;
+  &lt;/section&gt;
 
-  <section class="section" id="features">
-    <h2>Why Choose Us</h2>
-    <p style="color:#b9bfd0; max-width:700px;">Our platform delivers optimized tools with seamless integration, modern design, and outstanding performance.</p>
-  </section>
+  &lt;section class=&quot;section&quot; id=&quot;features&quot;&gt;
+    &lt;h2&gt;Why Choose Us&lt;/h2&gt;
+    &lt;p&gt;Our platform delivers optimized tools with seamless integration, modern design, and outstanding performance.&lt;/p&gt;
+  &lt;/section&gt;
 
-  <section class="section" id="advantages">
-    <h2>Our Advantages</h2>
-    <div class="products-grid">
-      <div class="card">
-        <h3>Security First</h3>
-        <p>We prioritize your safety and data protection above all else, ensuring a secure experience.</p>
-      </div>
-      <div class="card">
-        <h3>24/7 Support</h3>
-        <p>Our team is available around the clock to assist you whenever needed.</p>
-      </div>
-      <div class="card">
-        <h3>Instant Access</h3>
-        <p>Get immediate access to your products and tools without delays.</p>
-      </div>
-      <div class="card">
-        <h3>Easy to Use</h3>
-        <p>Designed for simplicity, our platform is intuitive and user-friendly.</p>
-      </div>
-      <div class="card">
-        <h3>Fast Updates</h3>
-        <p>Regular updates keep your experience smooth and enhance functionality constantly.</p>
-      </div>
-      <div class="card">
-        <h3>Affordable Prices</h3>
-        <p>High-quality products at competitive pricing, giving you the best value.</p>
-      </div>
-    </div>
-  </section>
+  &lt;section class=&quot;section&quot; id=&quot;advantages&quot;&gt;
+    &lt;h2&gt;Our Advantages&lt;/h2&gt;
+    &lt;div class=&quot;products-grid&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Security First&lt;/h3&gt;
+        &lt;p&gt;We prioritize your safety and data protection above all else, ensuring a secure experience.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;24/7 Support&lt;/h3&gt;
+        &lt;p&gt;Our team is available around the clock to assist you whenever needed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Instant Access&lt;/h3&gt;
+        &lt;p&gt;Get immediate access to your products and tools without delays.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Easy to Use&lt;/h3&gt;
+        &lt;p&gt;Designed for simplicity, our platform is intuitive and user-friendly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Fast Updates&lt;/h3&gt;
+        &lt;p&gt;Regular updates keep your experience smooth and enhance functionality constantly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Affordable Prices&lt;/h3&gt;
+        &lt;p&gt;High-quality products at competitive pricing, giving you the best value.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <section class="section" id="products">
-    <h2>Our Products</h2>
-    <div class="products-grid">
-      <div class="card">
-        <h3>Product A</h3>
-        <p>A powerful solution built for efficiency and speed.</p>
-      </div>
-      <div class="card">
-        <h3>Product B</h3>
-        <p>Advanced tools with clean UI and high performance.</p>
-      </div>
-      <div class="card">
-        <h3>Product C</h3>
-        <p>Reliable and scalable for all professional use cases.</p>
-      </div>
-    </div>
-  </section>
+  &lt;section class=&quot;section&quot; id=&quot;products&quot;&gt;
+    &lt;h2&gt;Our Products&lt;/h2&gt;
+    &lt;div class=&quot;products-grid&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Alpha&lt;/h3&gt;
+        &lt;p&gt;A powerful solution built for efficiency and speed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Beta&lt;/h3&gt;
+        &lt;p&gt;Advanced tools with clean UI and high performance.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Reseller&lt;/h3&gt;
+        &lt;p&gt;Reliable and scalable for all professional use cases.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <section class="section" id="pricing">
-    <h2>Pricing</h2>
-    <p style="color:#b9bfd0; max-width:700px;">Straightforward pricing designed to fit your needs.</p>
-    <div class="products-grid">
-      <div class="card">
-        <h3>Basic</h3>
-        <p>$9 / month</p>
-      </div>
-      <div class="card">
-        <h3>Pro</h3>
-        <p>$19 / month</p>
-      </div>
-      <div class="card">
-        <h3>Enterprise</h3>
-        <p>Custom Pricing</p>
-      </div>
-    </div>
-  </section>
+  &lt;section class=&quot;section&quot; id=&quot;pricing&quot;&gt;
+    &lt;h2&gt;Pricing&lt;/h2&gt;
+    &lt;p&gt;Straightforward pricing designed to fit your needs.&lt;/p&gt;
+    &lt;div class=&quot;products-grid&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Alpha&lt;/h3&gt;
+        &lt;p&gt;$4 / month&lt;/p&gt;
+        &lt;a class=&quot;purchase-btn&quot; href=&quot;https://shika.sell.app/&quot; target=&quot;_blank&quot;&gt;Purchase Now&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Beta&lt;/h3&gt;
+        &lt;p&gt;$70 / month&lt;/p&gt;
+        &lt;a class=&quot;purchase-btn&quot; href=&quot;https://shika.sell.app/&quot; target=&quot;_blank&quot;&gt;Purchase Now&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h3&gt;Reseller&lt;/h3&gt;
+        &lt;p&gt;Custom Pricing&lt;/p&gt;
+        &lt;a class=&quot;purchase-btn&quot; href=&quot;https://shika.sell.app/&quot; target=&quot;_blank&quot;&gt;Purchase Now&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 
-  <section class="section" id="contact">
-    <h2>Contact Us</h2>
-    <p style="color:#b9bfd0; max-width:700px;">Questions? Reach out anytime.</p>
-  </section>
+  &lt;section class=&quot;section&quot; id=&quot;contact&quot;&gt;
+    &lt;h2&gt;Contact Us&lt;/h2&gt;
+    &lt;p&gt;Questions? Reach out anytime.&lt;/p&gt;
+  &lt;/section&gt;
 
-  <footer>
-    © 2025 Celestial Products — All rights reserved.
-  </footer>
+  &lt;footer&gt;
+    © 2025 Shika — All rights reserved.
+  &lt;/footer&gt;
 
-  <script>
+  &lt;script&gt;
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
     let stars = [];
     let width = canvas.width = window.innerWidth;
     let height = canvas.height = window.innerHeight;
 
-    for(let i=0;i<300;i++) {
+    for(let i=0;i&lt;300;i++) {
       stars.push({x:Math.random()*width, y:Math.random()*height, r:Math.random()*1.5, d:Math.random()*0.5, twinkle:Math.random()});
     }
 
     function draw() {
       ctx.clearRect(0,0,width,height);
-      for(let i=0;i<stars.length;i++) {
+      for(let i=0;i&lt;stars.length;i++) {
         let s = stars[i];
         ctx.beginPath();
         ctx.arc(s.x, s.y, s.r, 0, Math.PI*2, true);
@@ -150,14 +185,14 @@
     let angle = 0;
     function update() {
       angle += 0.002;
-      for(let i=0;i<stars.length;i++) {
+      for(let i=0;i&lt;stars.length;i++) {
         let s = stars[i];
         s.y += Math.sin(angle) * s.d;
         s.x += Math.cos(angle) * s.d;
-        if(s.x < 0) s.x = width;
-        if(s.x > width) s.x = 0;
-        if(s.y < 0) s.y = height;
-        if(s.y > height) s.y = 0;
+        if(s.x &lt; 0) s.x = width;
+        if(s.x &gt; width) s.x = 0;
+        if(s.y &lt; 0) s.y = height;
+        if(s.y &gt; height) s.y = 0;
       }
     }
 
@@ -166,12 +201,14 @@
       requestAnimationFrame(animate);
     }
 
-    window.addEventListener('resize', () => {
+    window.addEventListener('resize', () =&gt; {
       width = canvas.width = window.innerWidth;
       height = canvas.height = window.innerHeight;
     });
 
     animate();
-  </script>
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 </body>
 </html>
