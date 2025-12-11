@@ -18,9 +18,9 @@
     --text-secondary: #cccccc;
     --text-muted: #888888;
     --border-color: #333333;
-    --gradient-primary: linear-gradient(135deg, #762de2, #5a1eb8);
+    --gradient-primary: linear-gradient(135deg, #ff6b35, #ff6b35);
     --gradient-green: linear-gradient(135deg, #00ff88, #00cc6a);
-    --gradient-secondary: linear-gradient(135deg, #ff6b35, #ff4757);
+    --gradient-secondary: linear-gradient(135deg, #ff6b35, #ff6b35);
     --gradient-bg: linear-gradient(135deg, #0a0a0a, #1a1a1a);
     --shadow-primary: 0 10px 30px rgba(118, 45, 226, 0.3);
     --shadow-green: 0 10px 30px rgba(0, 255, 136, 0.3);
