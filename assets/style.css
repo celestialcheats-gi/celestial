@@ -22,7 +22,7 @@
     --gradient-green: linear-gradient(135deg, #00ff88, #00cc6a);
     --gradient-secondary: linear-gradient(135deg, #ff6b35, #ff6b35);
     --gradient-bg: linear-gradient(135deg, #0a0a0a, #1a1a1a);
-    --shadow-primary: 0 10px 30px rgba(118, 45, 226, 0.3);
+    --shadow-primary: 0 10px 30px rgba(255, 107, 53, 0.3);
     --shadow-green: 0 10px 30px rgba(0, 255, 136, 0.3);
     --shadow-card: 0 10px 40px rgba(0, 0, 0, 0.5);
     --glow-purple: 0 0 30px rgba(255, 107, 53, 0.6), 0 0 60px rgba(255, 107, 53, 0.4);
