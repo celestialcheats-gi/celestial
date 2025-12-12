@@ -300,7 +300,7 @@ section {
 .feature-card:hover {
     transform: translateY(-5px);
     border-color: var(--primary-color);
-    box-shadow: 0 10px 30px rgba(118, 45, 226, 0.2);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
 }
 
 .feature-icon {
