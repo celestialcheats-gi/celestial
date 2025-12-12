@@ -241,7 +241,7 @@ body {
     height: auto;
     display: block;
     border-radius: 20px;
-    filter: drop-shadow(0 0 20px rgba(118, 45, 226, 0.5));
+    filter: drop-shadow(0 0 20px rgba(255, 107, 53, 0.5));
 }
 
 .hero-scroll {
@@ -347,7 +347,7 @@ section {
     height: auto;
     display: block;
     transition: transform 0.3s ease;
-    filter: drop-shadow(0 0 25px rgba(118, 45, 226, 0.6));
+    filter: drop-shadow(0 0 25px rgba(255, 107, 53, 0.6));
 }
 
 .image-overlay {
