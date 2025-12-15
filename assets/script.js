@@ -15,12 +15,11 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Redirect #purchase link to scroll to #download
 const purchaseLink = document.querySelector('a[href="#purchase"]');
 
 if (purchaseLink) {
     purchaseLink.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent jumping to #purchase in URL
+        e.preventDefault();
         document.querySelector('#download').scrollIntoView({
             behavior: 'smooth'
         });
